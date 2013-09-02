@@ -1,0 +1,238 @@
+/* @override 
+	http://showcase.joomlabamboo.com/avante/templates/avanti/style/base/theme.css
+	http://localhost:8888/snapshot/avanti/templates/avanti/style/base/theme.css
+	http://localhost:8888/joomla/svn/avanti/templates/avanti/css/theme.css
+*/
+
+/* These styles set the background colour and any other style you want to attach to the rows int he theme.  */
+
+/* Used mainly to set the bottom footer colour and to create a faux footer */
+body {background: #010101;color: #666}
+
+.containerBG {margin-top: 0px} 
+.fullWrap {margin-top: 0}
+#mainBodyWrap {background: #fff url(../images/gradient.png) repeat-x;float: left;width: 100%}
+#mainBottomWrap {background: #030303 url(../images/bottom.jpg) repeat-x;float: left;width: 100%}
+.topRow {padding: 0} 
+.topRow .containerBG {}
+
+/* logo */
+.logoRow .containerBG {margin: 0}
+#logo {margin-top: 10px} 
+#logo a {border:none}
+
+/* Nav */
+.navRow {padding: 0;background: url(../images/nav.png);height: 55px}
+.navRow .containerBG {padding: 0}
+
+/* banner */
+.bannerRow {color: #fff}
+.bannerRow .containerBG {padding: 10px 0}
+.bannerRow h2 {color: #fff; padding-left:80px;}
+.bannerRow .moduletable {margin-bottom: 10px} 
+
+/* grid1 */
+.gridWrap1 {padding-top: 30px}
+.grid1Row {}
+.grid1Row .containerBG {padding-bottom: 0}
+
+
+/* grid2*/
+.grid2Row {}
+.grid2Row .containerBG {}
+
+/* grid3 */
+.grid3Row {}
+.grid3Row .containerBG {}
+
+/* grid4 */
+.grid4Row {}
+.grid4Row .containerBG {}
+
+/* grid5 */
+.grid5Row {}
+.grid5Row .containerBG {}
+
+/* grid6 */
+.grid6Row {}
+.grid6Row .containerBG {}
+
+/* main row */
+.mainRow {}
+.mainRow .containerBG {padding-bottom: 40px}
+
+/* Pathway Classes */
+#breadcrumb {margin: 0;width: 100%;padding: 8px 0}
+#breadcrumb .moduletable {text-align: right}
+.pathway img {margin: 6px 2px 0}
+
+/* Left Column */
+#leftCol .moduletable {padding-top: 20px;border-top: 1px solid #ddd;width: 96%}
+
+/* Center Column */
+#center {}
+#centerCol .moduletable {padding-top: 20px;border-top: 1px solid #ddd;width: 96%}
+
+/* Main Content Row Classes */
+/* Left Column */
+#midCol {}
+.mainRow {}
+#midCol.twoL {padding-bottom: 30px}
+#midCol.twoL #jbArticle {}
+#midCol.twoR #mainContent {padding-right: 0px;border-top:1px solid #ddd}
+#mainContent {margin-bottom: 10px}
+
+/* Right Column */
+#right {}
+#right {border-top:1px solid #ddd;padding-top: 20px}
+
+
+/* bottom */
+.bottomRow {color: #fff}
+.bottomRow .containerBG {}
+.bottomRow .moduletable {border-right: 1px solid #1F1F1F;padding-right: 10px;clear: both} 
+#bottom4 .moduletable {border: 0;padding: 0}
+.bottomRow .moduletable h3,#bottom h3 {color: #eee;font-size: 1.3em}
+
+/* bottom menu */
+.bottomRow ul {margin: 0}
+.bottomRow ul li {list-style-type:none;margin: 0}
+.bottomRow ul li a {background: url(../images/bottomArrow.png) no-repeat left center;padding-left: 20px;display: block;color: #7E8386}
+.bottomRow ul li li a {padding-left: 30px;background: none;border: none}
+#bottom a {border: none}
+#bottom .parent {padding-left: 20px;}
+
+
+
+/* Footer Row Classes */
+.footerRow {;padding-bottom: 50px}
+.footerRow .containerBG {padding: 8px 0 0 0}
+#footer {;border-top: 1px solid #1f1f1f}
+#footer a {border: none}
+
+/* Search Styling */
+#search {}
+#search .inputbox,#search_searchword {border: 1px solid #ddd;padding: 8px;margin: 4px 0;background: url(../images/fieldShadow.jpg) repeat-x;	border: 1px solid #c8c8c8; font-size: 13px;color: #333333;padding-bottom: 0;margin: 0 20px}
+#searchForm .button {margin-top: 8px}
+
+
+/* Headings */
+h1,.componentheading {color: #333} 
+h2,.contentheading,h2 a {color: #333;line-height: 1.2em}
+h3,.moduletable h3 {color: #333;font-size: 1.6em}
+h4 {color: #333} 
+h5 {color: #fff;background: #333;padding: 2px 0 2px 4px}
+h6 {color: #fff;background: #999;padding: 2px 0 2px 4px}
+
+
+/*Nav - Top levels */
+#navWrap.navLeft  {float: left}
+#navWrap.navLeft ul {float: left;margin: 20px 0 0 0}
+#navWrap.navLeft ul ul {margin: 0}
+#navWrap.navLeft ul li {margin: 0}
+#navWrap {float: right}
+
+
+
+#nav ul {float: right;margin: 20px 0px 0 20px}
+#nav ul li {margin: 0;padding: 0}
+#nav ul li a{font-size: 1em;padding: 10px 20px 12px;color: #ccc;margin: 0;font-weight: bold;border:none}
+#nav ul li a:hover {color: #333;background: #fff}
+#nav span.expanded{margin: 0;padding: 0 0 0 8px;font-weight: bold}
+#nav ul li span.mainlevel,#nav ul li a.sf-with-ul  {font-size: 1em;color: #ccc;padding-top: 0;padding-left: 22px;margin-top: 0px;float: left;background: url(../images/navParent.png) no-repeat 6px 6px}
+#nav a.mainlevel.sf-with-ul,#nav a.mainlevel_active.sf-with-ul, #nav a#active_menu.mainlevel_current.sf-with-ul {background: url(../images/navParent.png) no-repeat 0px center;padding-left: 6px;margin-left: 15px;}
+#nav ul li a.mainlevel.sf-with-ul:hover,#nav ul li a.mainlevel_active.sf-with-ul:hover,#nav ul li a.mainlevel_active.sf-with-ul {background:url(../images/navParent.png) no-repeat 0px center;padding-left: 6px;}
+#nav a.mainlevel_active,#nav .mainlevel_current,#nav ul li a:hover {background: none}
+#nav ul li a.sf-with-ul,#nav ul li a.sf-with-ul:hover,#nav ul li.parent.active a.sf-with-ul{background:url(../images/navParent.png) no-repeat 6px 6px}
+
+
+/* Nav - Second and third levels */
+#nav li:hover ul,#nav ul li.sfHover ul {left:-20px;top:15px}
+#nav li li:hover ul,#nav ul li li.sfHover ul {left:155px;top:0px}
+#nav li ul {background: #131313 url(../images/navBG.png) no-repeat left top;width: 155px}
+#nav li ul li,#nav li ul li#current,#nav ul li li a,#nav ul li li span.expanded {width: 138px}
+#nav ul li li a,#nav ul li span.sublevel,#nav li.active ul li a  {border-bottom: 1px solid #111;color: #fff;font-size: 0.9em;padding-left: 12px;width: 134px}
+#nav ul li li span.sublevel{padding: 4px 0;display: block;width: 154px;color: #fff;}
+#nav ul ul li a#active_menu.sublevel_current.sf-with-ul {}
+#nav ul li li a:hover {background: #252521}
+#nav ul li li span.expanded {padding-left: 0px;font-size: 95%;padding-top: 0px;background: url(../images/subParent.png) right center no-repeat}
+
+
+/* Left and right lists and panel menu */
+#leftCol ul li, #rightCol ul li,#centerCol ul li {margin: 0;padding: 0;list-style-type: none;}
+#leftCol ul li a,#rightCol ul li a,#leftCol ul li span.separator,#rightCol ul li span.separator,#centerCol ul li a{border-bottom: 1px solid #f1f1f1;color: #333;background: url(../images/new_page.png) no-repeat 0 8px;padding-left: 16px;}
+
+
+/* Left and right Sub menus */
+#leftCol ul li li a,#rightCol ul li li a,#centerCol ul li li a{color: #666;font-weight: normal;padding-left:34px;background: url(../images/new_page.png) no-repeat 17px 8px;border-bottom: 0}
+#leftCol ul li li li a,#rightCol ul li li li a {padding-left: 60px;background: none;font-style: italic;font-size:1em}
+
+/* Styling for parent on panel menu */
+#leftCol span.expanded,#rightCol span.expanded {background: url(../images/panelParent.png) no-repeat left center;display: block;padding-left: 20px;cursor: pointer;padding: 4px 0 4px 20px}  
+#leftCol ul li li span.expanded,#rightCol ul li li span.expanded  {padding-left:40px;background: url(../images/panelParent.png) no-repeat 20px center}
+
+/* Hidden Panel Styling */
+#toppanel a#open {color: #ccc;padding: 13px 10px 0;margin-top: 12px;right: 20px;border: none}
+
+.overlay div.close{background:url(../images/panelClose.png) no-repeat}
+#panelInner {color: #333;border: 4px solid #343434;background: #f9f9f9}
+#panelInner h3 {color: #999}
+/* Input Styling */
+.inputbox,input#email {border: 1px solid #ddd; background: url(../images/fieldShadow.jpg) repeat-x;	border: 1px solid #c8c8c8;	font-size: 13px; color: #333333}
+
+/* MicroBlog */
+.mbitemCols h2 a{font-size: 1.2em;border: none}
+img.mbImage {background: #eee;border: 1px solid #ddd;padding: 6px;	-moz-border-radius-topright:3px;-webkit-border-top-right-radius:3px;-moz-border-radius-topleft:3px;-webkit-border-top-left-radius:3px;-moz-border-radius-bottomright:3px;	-webkit-border-bottom-right-radius:3px;	-moz-border-radius-bottomleft:3px;	-webkit-border-bottom-left-radius:3px}
+.mbMoreCols a.readon {border-bottom: 1px solid ;padding-bottom: 2px}
+.mbMoreCols a.readon:hover {color: #333}
+.mbDateCols {color: #aaa;font-style: italic}
+
+
+/* Page classes */
+div.jbFrontPage {}
+div#jbArticle {padding-top: 20px;border-top: 1px solid #ddd;}
+div.jbSection {padding-top: 20px;border-top: 1px solid #ddd}
+div.jbCategory {}
+#mainContent .blog {padding-top: 20px;border-top: 1px solid #ddd}
+.leading,.article_row {border-bottom: 1px solid #ededed;clear: both;float: left;padding-bottom: 20px;margin: 0 0 20px}
+
+/* Pdf Buttons etc */
+div.buttons {}
+
+/* Div around the title and author, date etc */
+div.jbMeta {} 
+
+/* Section and Categories */
+div.jbSectCat {}
+span.jbSections {}
+span.jbCategories {}
+
+/* Author and date styling */
+div.jbAuthorDate {font-size: 90%;color: #999;display: block;float: left;width: 100%}
+span.jbModifydate {float: right;margin-top: 10px}
+span.jbAuthor {}
+.buttons {float: right;margin-left: 20px}
+
+div.jbCreatedate {width: 90px;float: left}
+div.jbCreatedate span.dateday {}
+div.jbCreatedate span.datemonth {}
+div.jbCreatedate span.dateyear {}
+
+/* Read more */
+a.jbReadon,a.k2ReadMore {border-bottom: 1px solid;padding-bottom: 4px;margin-top: 10px;float: left}
+a.k2ReadMore  {float: right}
+a.jbReadon:hover,a.k2ReadMore:hover {color: #333}
+
+
+/* jTweet Overrides */
+.moduletable-bottomtwitter .jTweet .tweet li span{line-height: 2em}
+.moduletable-bottomtwitter .tweet{width: 100%}
+.moduletable-bottomtwitter .jTweet ul li a {background: none;padding: 0;display: inline}
+.moduletable-bottomtwitter .jTweet ul.tweet_list li {border: none}
+.moduletable-bottomtwitter .jTweet ul.tweet_list li.tweet_first {padding-bottom: 4px}
+.moduletable-bottomtwitter span.triggerDetail {border: none;width: 100%;padding: 0;margin: 0}
+.moduletable-bottomtwitter span.triggerDetail a {color: #666}
+
+/* PrettyBox */
+img.prettyBox {padding: 4px;border: 1px solid #ddd}
+p.prettyTitle {font-style: italic}
